@@ -8,8 +8,10 @@ using UnityEngine.InputSystem.Utilities;
 
 public class @GameInput : IInputActionCollection, IDisposable
 {
+    
 	public InputActionAsset asset { get; }
-	public @GameInput()
+     
+    public @GameInput()
 	{
 		asset = InputActionAsset.FromJson(@"{
     ""name"": ""GameInput"",
